@@ -24,7 +24,7 @@ function perguntarQuantidade() {
   while (
     isNaN(qtdCartas) ||
     qtdCartas < 4 ||
-    qtdCartas > 18 ||
+    qtdCartas > 16 ||
     qtdCartas % 2 === 1
   ) {
     qtdCartas = parseInt(prompt("Com quantas cartas você quer jogar?"));
